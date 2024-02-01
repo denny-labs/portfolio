@@ -1,0 +1,19 @@
+/* src/components/AboutMe.css */
+.about-me-page {
+    background: url('./Assets/bg2.jpg') center/cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 60px 20px; /* Adjust the padding as needed */
+  }
+  
+  .topic-section {
+    margin: 40px 0;
+  }
+  
+  .topic-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  
+  

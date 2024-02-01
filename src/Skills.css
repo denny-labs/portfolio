@@ -1,0 +1,74 @@
+.skills-section {
+  color: black;
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-around; */
+  margin-top: 40px;
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns as needed */
+  grid-gap: 30px; /* Adjust the gap between grid items as needed */
+  /* place-items: center; */
+}
+.skills-section > div{
+  background: url('./Assets/bg7.jpg') center/cover no-repeat; /* Set background properties */
+  border: 10px;
+  border-radius: 40px;
+  height: 1000px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.skill {
+  text-align: center;
+  color: antiquewhite;
+  /* margin: 10px; */
+  background: url('./Assets/bg3.jpg') center/cover no-repeat;
+  margin-bottom: 0px;
+ 
+}
+.pic{
+  width: 80px; 
+  height: 80px;
+  border-radius: 50%;
+  animation: rotate 2s linear infinite; /* Rotate animation */
+}
+.progress-bar {
+  background-color: rgb(68, 105, 192); /* Adjust the color as needed */
+  height: 25px;
+  border-top-left-radius: 0; /* No rounding on the top-left corner */
+  border-bottom-left-radius: 0; /* No rounding on the bottom-left corner */
+  border-top-right-radius: 40px; /* Adjust the radius for the top-right corner */
+  border-bottom-right-radius: 40px; /* Adjust the radius for the bottom-right corner */
+  border-left: 2px solid #000; /* Flat border on the left side */
+  border-right: 2px solid #000; /* Add border on the right side (optional) */
+  /* padding: 10px;  */
+  margin-top: 8px;
+  color: aliceblue;
+}
+
+
+.value{
+ 
+  float:right
+}
+
+@keyframes rotate {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+img {
+  width: 80px; /* Adjust the size as needed */
+  height: 80px;
+  border-radius: 50%;
+  align-items: center;
+}
+
+.level-range {
+  margin-top: 8px;
+}
