@@ -8,18 +8,21 @@
     grid-gap: 30px;
   }
   .project-section > div{
-    background: url('./Assets/bg5.jpg') center/cover no-repeat; 
+    /* background: url('./Assets/bg5.jpg') center/cover no-repeat;  */
+    background-color: rgb(252, 212, 174, 0.4);
     border: 10px;
     border-radius: 40px;
-    height: 1500px;
+    height: 1535px;
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 40px;
+
   }
   .project{
     text-align: center;
-    color: rgb(249, 227, 202);
-    background: url('./Assets/projectsbg.jpg') center/cover no-repeat;
+    color: rgb(71, 62, 51);
+    background: url('./Assets/bg5.jpg') center/cover no-repeat;
+    /* background: url('./Assets/projectsbg.jpg') center/cover no-repeat; */
     margin-top: 0px;
   }
   .pimage {

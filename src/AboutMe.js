@@ -5,7 +5,9 @@ import './AboutMe.css';
 const AboutMe = () => {
   return (
     <div className="about-me-page">
+
       <div className="topic-section">
+
         <div className="topic-content">
           <h2>About Me</h2>
           <p>
@@ -14,9 +16,7 @@ const AboutMe = () => {
           I find joy in unraveling complex patterns and deriving meaningful insights from data.
           </p>
         </div>
-      </div>
 
-      <div className="topic-section">
         <div className="topic-content">
           <h2>Data Science and Mchine Learning</h2>
           <p>
@@ -25,9 +25,7 @@ const AboutMe = () => {
           I enjoy leveraging the power of algorithms to solve real-world problems.
           </p>
         </div>
-      </div>
 
-      <div className="topic-section">
         <div className="topic-content">
           <h2>Programe Expertise</h2>
           <p>
@@ -36,9 +34,7 @@ const AboutMe = () => {
           libraries, I find joy in the art of programming.
           </p>
         </div>
-      </div>
 
-      <div className="topic-section">
         <div className="topic-content">
           <h2>Blockchain Enthusiast</h2>
           <p>
@@ -48,9 +44,7 @@ const AboutMe = () => {
           decentralized systems.
           </p>
         </div>
-      </div>
 
-      <div className="topic-section">
         <div className="topic-content">
           <h2>Why this blog?</h2>
           <p>
@@ -60,6 +54,12 @@ const AboutMe = () => {
           <br/>Let's embark on this exploration together!
           </p>
         </div>
+
+      </div>
+      <div className='myself'>
+        <img src={require('./Assets/dennis.jpg')} alt='Dennis' className='me'></img>
+        <h2>DENNIS ABRAHAM R</h2>
+        <h3>Chennai, Tamil Nadu, India</h3>
       </div>
 
     </div>

@@ -1,13 +1,47 @@
 /* src/components/AboutMe.css */
 .about-me-page {
     background-color: rgb(201, 215, 228);
+    background: url('./Assets/projectsbg.jpg') center/cover no-repeat;
     color: rgb(46, 42, 42);
-    text-align: left;
-    padding: 60px 20px; /* Adjust the padding as needed */
+    /* text-align: left; */
+    padding: 60px 20px; 
+    display: flex;
+    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 30px;
+  }
+
+  .about-me-page > div{
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 10px;
+    border-radius: 80px;
+    height: 1200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+  }
+
+  .me{
+    width: 300px; 
+    height: 400px;
+    border-radius: 20px; 
+    object-fit: cover; 
+    margin-top: 400px;
+    align-items: center;
+  }
+  
+  .myself{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
   }
   
   .topic-section {
-    margin: 40px 0;
+    text-align: left;
+    width: 1200px;
+    /* margin: 40px 0; */
   }
   
   .topic-content {

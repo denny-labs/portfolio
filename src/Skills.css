@@ -8,7 +8,8 @@
 }
 .skills-section > div{
  
-  background: url('./Assets/bg7.jpg') center/cover no-repeat;
+  /* background: url('./Assets/bg7.jpg') center/cover no-repeat; */
+  background-color: rgb(154, 179, 180, 0.3);
   border: 10px;
   border-radius: 40px;
   height: 1050px;
@@ -21,15 +22,21 @@
   text-align: center;
   font-size: large;
   color: rgb(38, 33, 60);
-  background: url('./Assets/skillsbg.jpg') center/cover no-repeat;
+  /* background: url('./Assets/skillsbg.jpg') center/cover no-repeat; */
+  /* background-color: rgb(191, 217, 214); */
+  background: url('./Assets/bg7.jpg') center/cover no-repeat;
   margin-bottom: 0px;
  
+}
+
+h1{
+  text-align: left;
 }
 .pic{
   width: 80px; 
   height: 80px;
   border-radius: 50%;
-  animation: rotate 2s linear infinite; /* Rotate animation */
+  animation: rotate 2s linear infinite;
 }
 .progress-bar {
   background-color: rgb(44, 67, 120); /* Adjust the color as needed */

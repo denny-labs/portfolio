@@ -36,7 +36,7 @@
     grid-template-columns: 1fr 1fr; /* Adjust column layout as needed */
     gap: 20px; /* Adjust the gap between sections */
     margin-top: 20px; /* Adjust margin between sections as needed */
-    background-color: bisque;
+    background-color: rgb(241, 216, 184, 0.6);
     border-radius: 40px;
     margin: 40px;
   }
@@ -44,6 +44,10 @@
   .text-content {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    text-align: left;
+    justify-content: center;
+    margin-left: 10px;
   }
   
   .image {
