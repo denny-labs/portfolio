@@ -3,7 +3,7 @@ import './Education.css';
 
 const Education = () => {
   return (
-    <div className="education">
+    <div id="Education" className="education">
       <div className="about-section">
         <div className="text-content">
           <h2>SCHOOL</h2>
