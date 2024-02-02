@@ -1,25 +1,25 @@
 .project-section {
+  font-size: larger;
     color: black;
     display: flex;
     flex-wrap: wrap;
-    margin-top: 40px;
-    margin-bottom: 20px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns as needed */
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 30px;
   }
   .project-section > div{
-    background: url('./Assets/bg5.jpg') center/cover no-repeat; /* Set background properties */
+    background: url('./Assets/bg5.jpg') center/cover no-repeat; 
     border: 10px;
     border-radius: 40px;
     height: 1500px;
     margin-left: 20px;
     margin-right: 20px;
+    margin-bottom: 40px;
   }
   .project{
     text-align: center;
-    color: whitesmoke;
-    background: url('./Assets/bg4.jpg') center/cover no-repeat;
+    color: rgb(249, 227, 202);
+    background: url('./Assets/projectsbg.jpg') center/cover no-repeat;
     margin-top: 0px;
   }
   .pimage {

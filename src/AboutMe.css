@@ -1,8 +1,8 @@
 /* src/components/AboutMe.css */
 .about-me-page {
-    background: url('./Assets/bg2.jpg') center/cover no-repeat;
-    color: white;
-    text-align: center;
+    background-color: rgb(201, 215, 228);
+    color: rgb(46, 42, 42);
+    text-align: left;
     padding: 60px 20px; /* Adjust the padding as needed */
   }
   
