@@ -15,10 +15,10 @@ function App() {
       <Education/>
       <Skills/>
       <Project/>
-      <header className="App-header">
+      <footer className="App-footer">
         
         
-      </header>
+      </footer>
     </div>
   );
 }

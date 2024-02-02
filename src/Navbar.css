@@ -61,6 +61,7 @@
     color: #333; /* Text color for the clicked/active item */
     border-radius: 5px;
     border-spacing: 10px;
+    transform: scale(1.2);
   }
   
   /* Styling for the menu button icon */
